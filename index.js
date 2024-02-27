@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
   credentials: true,
-  origin: 'https://neww-mesgar10.onrender.com'
+  origin: 'https://neww-mesgar.onrender.com/'
 }));
 
 async function getUserDataFromRequest(req) {
